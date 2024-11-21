@@ -1,4 +1,4 @@
-FROM yangbingdong/debian-sdkman:latest
+FROM yangbingdong/sdkman:debian
 
 SHELL ["bash", "--login", "-c"]
 ADD GRAALVM_VERSION .
